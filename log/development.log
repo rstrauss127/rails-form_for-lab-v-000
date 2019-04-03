@@ -112,3 +112,9 @@ Completed 302 Found in 8ms (ActiveRecord: 3.0ms)
 Started GET "/students/3" for 68.174.146.0 at 2019-04-03 21:44:44 +0000
 Processing by StudentsController#show as HTML
   Parameters: {"id"=>"3"}
+  [1m[36mStudent Load (0.3ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering students/show.html.erb within layouts/application
+  Rendered students/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 33ms (Views: 26.9ms | ActiveRecord: 0.3ms)
+
+
