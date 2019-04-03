@@ -89,3 +89,13 @@ Started GET "/students" for 68.174.146.0 at 2019-04-03 21:44:34 +0000
 Processing by StudentsController#index as HTML
   Rendering students/index.html.erb within layouts/application
   Rendered students/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 367ms (Views: 364.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/new" for 68.174.146.0 at 2019-04-03 21:44:37 +0000
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+  Rendered students/new.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 29ms (Views: 22.5ms | ActiveRecord: 0.6ms)
+
+
